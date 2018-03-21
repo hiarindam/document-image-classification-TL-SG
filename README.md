@@ -19,6 +19,23 @@ Please cite our work if you find it useful for you research. <Enter>
 # Dataset
 [RVL-CDIP](http://www.cs.cmu.edu/~aharley/rvl-cdip/) has been used to validate the proposed methodology. This dataset consists of 400000 scanned grayscale images distributed among 16 categories. Also this collection is subdivided into training, validation and test sets each containing 320000, 40000 and 40000 images respectively.
 
+# Experimental Results
+<table>
+<th> Performance Comparison </th>
+<tr><td>
+
+Method | Accuracy (%) | Comments
+--- | --- | ---
+Harley et al. [1]  | 89.90 | 24.79
+DenseNet-100-12 | 7.2M | 20.97
+DenseNet-100-24 | 28.28M | 19.61
+--- | --- | ---
+SparseNet-40-24  | 0.76M | 24.65
+SparseNet-100-36 | 5.65M | 20.50
+SparseNet-100-{16,32,64} | 7.22M | 19.49
+
+
+</td></tr> </table>
 
 # Pre-trained Models
 Will be published soon...
