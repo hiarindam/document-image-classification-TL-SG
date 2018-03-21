@@ -24,15 +24,16 @@ Please cite our work if you find it useful for you research. <Enter>
 <th> Performance Comparison </th>
 <tr><td>
 
-Method | Accuracy (%) | Comments
+Method | Accuracy(%) | Comments
 --- | --- | ---
-Harley et al. [1]  | 89.90 | 24.79
-DenseNet-100-12 | 7.2M | 20.97
-DenseNet-100-24 | 28.28M | 19.61
---- | --- | ---
-SparseNet-40-24  | 0.76M | 24.65
-SparseNet-100-36 | 5.65M | 20.50
-SparseNet-100-{16,32,64} | 7.22M | 19.49
+Harley et al. [1]  | 89.90 | Document region based DCNN models with transfer learning
+Tensmeyer et al. [2] | 89.31 | Spatial pyramidal pooling based AlexNet without transfer learning
+Tensmeyer et al. [2] | 90.94 | Same model as above with increased image dimension (384X384) keeping aspect ratio same
+Csurka et al. [3]  | 90.70 | GoogleNet with weights transferred from ImageNet
+Afzal et al. [4] | 90.97 | VGG-16 with weights transferred from ImageNet
+Kolsch et al. [5] | 90.05 | Weights transferred from ImageNet to VGG-16 and adding ELM in place of MLP
+Proposed | 91.11 | VGG-16 model trained on holistic samples with weights transferred from ImageNet
+Proposed | 92.21 | Inter and intra domain transfer learning on region based DCNNs and MLNN based stacking
 
 
 </td></tr> </table>
