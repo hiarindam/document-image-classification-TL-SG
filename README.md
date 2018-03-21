@@ -24,7 +24,7 @@ Please cite our work if you find it useful for you research. <Enter>
 
 # Experimental Results
 <table>
-<th> Performance Comparison </th>
+<th> Performance Comparison with State-of-the-art Approaches</th>
 <tr><td>
 
 Method | Accuracy(%) | Comments
