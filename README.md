@@ -31,7 +31,7 @@ Tensmeyer et al. [2] | 89.31 | Spatial pyramidal pooling based AlexNet without t
 Tensmeyer et al. [2] | 90.94 | Same model as above with increased image dimension (384X384) keeping aspect ratio same
 Csurka et al. [3]  | 90.70 | GoogleNet with weights transferred from ImageNet
 Afzal et al. [4] | 90.97 | VGG-16 with weights transferred from ImageNet
-Kolsch et al. [5] | 90.05 | Weights transferred from ImageNet to VGG-16 and adding ELM in place of MLP
+Kölsch et al. [5] | 90.05 | Weights transferred from ImageNet to VGG-16 and adding ELM in place of MLP
 Proposed | 91.11 | VGG-16 model trained on holistic samples with weights transferred from ImageNet
 Proposed | 92.21 | Inter and intra domain transfer learning on region based DCNNs and MLNN based stacking
 
@@ -40,3 +40,14 @@ Proposed | 92.21 | Inter and intra domain transfer learning on region based DCNN
 
 # Pre-trained Models
 Will be published soon...
+
+# References
+[1] A. W. Harley, A. Ufkes, and K. G. Derpanis, “Evaluation of deep convolutional nets for document image classification and retrieval,” in _Document Analysis and Recognition (ICDAR), 2015 13th International Conference on_. IEEE, 2015, pp. 991–995.<Enter>
+  
+[2] C. Tensmeyer and T. Martinez, “Analysis of convolutional neural networks for document image classification,” _arXiv preprint arXiv:1708.03273_, 2017.<Enter>
+
+[3] G. Csurka, D. Larlus, A. Gordo, and J. Almazan, “What is the right way to represent document images?” arXiv preprint _arXiv:1603.01076_, 2016.<Enter>
+
+[4] M. Z. Afzal, A. K¨olsch, S. Ahmed, and M. Liwicki, “Cutting the error by half: Investigation of very deep cnn and advanced training strategies for document image classification,” _arXiv preprint arXiv:1704.03557_, 2017.<Enter>
+
+[5] Andreas Kölsch, Muhammad Zeshan Afzal, Markus Ebbecke, Marcus Liwicki, "Cutting the Error by Half: Investigation of Very Deep CNN and Advanced Training Strategies for Document Image Classification", _arXiv preprint arXiv:1704.03557_, 2017.<Enter>
