@@ -16,11 +16,11 @@ Please cite our work if you find it useful for you research. <Enter>
 }
 ```
 
-# Proposed Architecture
-![](IMG_Flowchart.png)
-
 # Dataset
 [RVL-CDIP](http://www.cs.cmu.edu/~aharley/rvl-cdip/) has been used to validate the proposed methodology. This dataset consists of 400000 scanned grayscale images distributed among 16 categories. Also this collection is subdivided into training, validation and test sets each containing 320000, 40000 and 40000 images respectively.
+
+# Proposed Architecture
+![](IMG_Flowchart.png)
 
 # Experimental Results
 <table>
