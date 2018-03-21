@@ -3,7 +3,7 @@ Contributors: [Arindam Das](https://scholar.google.co.in/citations?user=W8DTl_gA
 
 This research work has been made available [here](https://arxiv.org/abs/1801.09321).
 
-This page is published with intention to provide source code and region based pre-trained models for document image classification.<Enter>
+This page is published with intention to provide source code and region based pre-trained models for document image classification or document structure learning.<Enter>
 
 Please cite our work if you find it useful for you research. <Enter>
   
