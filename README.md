@@ -51,7 +51,7 @@ Will be published soon...
   
 [2] C. Tensmeyer and T. Martinez, “Analysis of convolutional neural networks for document image classification,” _arXiv preprint arXiv:1708.03273_, 2017.<Enter>
 
-[3] G. Csurka, D. Larlus, A. Gordo, and J. Almazan, “What is the right way to represent document images?” arXiv preprint _arXiv:1603.01076_, 2016.<Enter>
+[3] G. Csurka, D. Larlus, A. Gordo, and J. Almazan, “What is the right way to represent document images?” _arXiv preprint arXiv:1603.01076_, 2016.<Enter>
 
 [4] M. Z. Afzal, A. K¨olsch, S. Ahmed, and M. Liwicki, “Cutting the error by half: Investigation of very deep cnn and advanced training strategies for document image classification,” _arXiv preprint arXiv:1704.03557_, 2017.<Enter>
 
