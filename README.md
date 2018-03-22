@@ -20,7 +20,9 @@ Please cite our work if you find it useful for you research. <Enter>
 [RVL-CDIP](http://www.cs.cmu.edu/~aharley/rvl-cdip/) has been used to validate the proposed methodology. This dataset consists of 400000 scanned grayscale images distributed among 16 categories. Also this collection is subdivided into training, validation and test sets each containing 320000, 40000 and 40000 images respectively.
 
 # Proposed Architecture
-![](IMG_Flowchart.png)
+<p align="center">
+  <img src="https://github.com/hiarindam/document-image-classification-TL-SG/blob/master/IMG_Flowchart.png"  width="700" height="700">
+</p>
 
 # Experimental Results
 <table>
