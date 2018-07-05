@@ -10,7 +10,7 @@ Please cite our work if you find it useful for you research. <Enter>
 ```
 @article{dic2018tlsg,
   title={Document Image Classification with Intra-Domain Transfer Learning and Stacked Generalization of Deep Convolutional Neural Networks},
-  author={Das, Arindam and Roy, Saikat and Bhattacharya, Ujjwal},
+  author={Das, Arindam and Roy, Saikat and Bhattacharya, Ujjwal and Parui, S. K.},
   journal={arXiv preprint arXiv:1801.09321},
   year={2018}
 }
