@@ -10,7 +10,7 @@ Please cite our work if you find it useful for you research. <Enter>
 ```
 @article{dic2018tlsg,
   title={Document Image Classification with Intra-Domain Transfer Learning and Stacked Generalization of Deep Convolutional Neural Networks},
-  author={Das, Arindam and Roy, Saikat and Bhattacharya, Ujjwal and Parui, S. K.},
+  author={Das, Arindam and Roy, Saikat and Bhattacharya, Ujjwal and Parui, S.K.},
   journal={arXiv preprint arXiv:1801.09321},
   year={2018}
 }
@@ -44,7 +44,7 @@ Proposed | 92.21 | Inter and intra domain transfer learning on region based DCNN
 </td></tr> </table>
 
 # Pre-trained Models
-Will be published soon...
+Trained models in this publication have been made available [here](https://drive.google.com/open?id=1oFk0eytDn_M6LmdugI22JUV4nmnO5gIv). Please note that all weight matrices are formatted with theano as a background and not tensorflow.
 
 # References
 [1] A. W. Harley, A. Ufkes, and K. G. Derpanis, “Evaluation of deep convolutional nets for document image classification and retrieval,” in _Document Analysis and Recognition (ICDAR), 2015 13th International Conference on_. IEEE, 2015, pp. 991–995.<Enter>
