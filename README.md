@@ -6,13 +6,15 @@ This research work has been made available [here](https://arxiv.org/abs/1801.093
 This page is published with intention to provide source code and region based pre-trained models for document image classification or document structure learning.<Enter>
 
 Please cite our work if you find it useful for you research. <Enter>
-  
+
 ```
-@article{dic2018tlsg,
+@inproceedings{das2018document,
   title={Document Image Classification with Intra-Domain Transfer Learning and Stacked Generalization of Deep Convolutional Neural Networks},
-  author={Das, Arindam and Roy, Saikat and Bhattacharya, Ujjwal and Parui, S.K.},
-  journal={arXiv preprint arXiv:1801.09321},
-  year={2018}
+  author={Das, Arindam and Roy, Saikat and Bhattacharya, Ujjwal and Parui, Swapan K},
+  booktitle={2018 24th International Conference on Pattern Recognition (ICPR)},
+  pages={3180--3185},
+  year={2018},
+  organization={IEEE}
 }
 ```
 
