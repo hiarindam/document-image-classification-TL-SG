@@ -3,7 +3,7 @@ Contributors: [Arindam Das](https://scholar.google.co.in/citations?user=W8DTl_gA
 
 This research work has been made available [here](https://arxiv.org/abs/1801.09321).
 
-This page is published with intention to provide source code and region based pre-trained models for document image classification or document structure learning.<Enter>
+This page is published with intention to provide region based pre-trained models for document image classification for document structure learning. For using weight matrices, please note that we used theano as the backend for all our experiments hence everything is ordered per theano's style.<Enter>
 
 Please cite our work if you find it useful for you research. <Enter>
 
@@ -46,7 +46,7 @@ Proposed | 92.21 | Inter and intra domain transfer learning on region based DCNN
 </td></tr> </table>
 
 # Pre-trained Models
-Trained models in this publication have been made available [here](https://drive.google.com/open?id=1oFk0eytDn_M6LmdugI22JUV4nmnO5gIv). Please note that all weight matrices are formatted with theano as a background and not tensorflow.
+Trained models in this publication have been made available [here](https://drive.google.com/open?id=1oFk0eytDn_M6LmdugI22JUV4nmnO5gIv). Please note that all weight matrices are formatted with theano as a background and not tensorflow. That also includes theano style input dimension ordering.
 
 # References
 [1] A. W. Harley, A. Ufkes, and K. G. Derpanis, “Evaluation of deep convolutional nets for document image classification and retrieval,” in _Document Analysis and Recognition (ICDAR), 2015 13th International Conference on_. IEEE, 2015, pp. 991–995.<Enter>
