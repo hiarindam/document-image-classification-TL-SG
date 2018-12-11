@@ -3,19 +3,20 @@ Contributors: [Arindam Das](https://scholar.google.co.in/citations?user=W8DTl_gA
 
 This research work has been made available [here](https://arxiv.org/abs/1801.09321).
 
-This page is published with intention to provide source code and region based pre-trained models for document image classification or document structure learning.<Enter>
+This page is published with intention to provide region based pre-trained models for document image classification for document structure learning. For using weight matrices, please note that we used theano as the backend for all our experiments hence everything is ordered per theano's style.<Enter>
 
 Please cite our work if you find it useful for you research. <Enter>
-  
+
 ```
-@article{dic2018tlsg,
+@inproceedings{das2018document,
   title={Document Image Classification with Intra-Domain Transfer Learning and Stacked Generalization of Deep Convolutional Neural Networks},
-  author={Das, Arindam and Roy, Saikat and Bhattacharya, Ujjwal and Parui, S.K.},
-  journal={arXiv preprint arXiv:1801.09321},
-  year={2018}
+  author={Das, Arindam and Roy, Saikat and Bhattacharya, Ujjwal and Parui, Swapan K},
+  booktitle={2018 24th International Conference on Pattern Recognition (ICPR)},
+  pages={3180--3185},
+  year={2018},
+  organization={IEEE}
 }
 ```
-
 # Dataset
 [RVL-CDIP](http://www.cs.cmu.edu/~aharley/rvl-cdip/) has been used to validate the proposed methodology. This dataset consists of 400000 scanned grayscale images distributed among 16 categories. Also this collection is subdivided into training, validation and test sets each containing 320000, 40000 and 40000 images respectively.
 
@@ -44,7 +45,7 @@ Proposed | 92.21 | Inter and intra domain transfer learning on region based DCNN
 </td></tr> </table>
 
 # Pre-trained Models
-Trained models in this publication have been made available [here](https://drive.google.com/open?id=1oFk0eytDn_M6LmdugI22JUV4nmnO5gIv). Please note that all weight matrices are formatted with theano as a background and not tensorflow.
+Trained models in this publication have been made available [here](https://drive.google.com/open?id=1oFk0eytDn_M6LmdugI22JUV4nmnO5gIv). Please note that all weight matrices are formatted with theano as a background and not tensorflow. That also includes theano style input dimension ordering.
 
 # References
 [1] A. W. Harley, A. Ufkes, and K. G. Derpanis, “Evaluation of deep convolutional nets for document image classification and retrieval,” in _Document Analysis and Recognition (ICDAR), 2015 13th International Conference on_. IEEE, 2015, pp. 991–995.<Enter>
