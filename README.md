@@ -17,7 +17,7 @@ Please cite our work if you find it useful for you research. <Enter>
   organization={IEEE}
 }
 ```
-# Theano to Tensorflow Weight Convertor
+## Theano to Tensorflow Weight Convertor
 There has been an ongoing issue by users unable to use (properly load) the weights in tensorflow using a convertor or otherwise since the version of theano and keras used for this project was pretty old (late 2017/early 2018). Please also look at the section on preprocessing the input. This section deals with weight conversion from theano to tensorflow. This particular module was developed by Auke Zijlstra (a.zijlstra@student.eur.nl) and although he was unable to replicate the exact results we had using this script, he did get things working. We provide excerpts from his communication with us on the usage of the script.
 
 > "... Although I have not been able to fully replicate your results, I have been able to achieve 0.87 accuracy score on the RVL-CDIP test set using your holistic model weights with a Keras+tensorflow setup. My steps to convert your Theano ordered weights into Tensorflow ordering were as follows:
@@ -27,18 +27,18 @@ There has been an ongoing issue by users unable to use (properly load) the weigh
 
 Hopefully this gives a way forward for people having issues using our weights for newer versions of keras, theano, tensorflow and the like.
 
-# Dataset
+## Dataset
 [RVL-CDIP](http://www.cs.cmu.edu/~aharley/rvl-cdip/) has been used to validate the proposed methodology. This dataset consists of 400000 scanned grayscale images distributed among 16 categories. Also this collection is subdivided into training, validation and test sets each containing 320000, 40000 and 40000 images respectively.
 
-# Preprocessing
+## Preprocessing
 Please look at this [comment](https://github.com/hiarindam/document-image-classification-TL-SG/issues/4#issuecomment-446190710) to see a small example on how to preprocess the input for the networks.
 
-# Proposed Architecture
+## Proposed Architecture
 <p align="center">
   <img src="https://github.com/hiarindam/document-image-classification-TL-SG/blob/master/IMG_Flowchart.png"  width="700" height="700">
 </p>
 
-# Experimental Results
+## Experimental Results
 <table>
 <th> Performance Comparison with State-of-the-art Approaches</th>
 <tr><td>
@@ -57,10 +57,10 @@ Proposed | 92.21 | Inter and intra domain transfer learning on region based DCNN
 
 </td></tr> </table>
 
-# Pre-trained Models
+## Pre-trained Models
 Trained models in this publication have been made available [here](https://drive.google.com/open?id=1oFk0eytDn_M6LmdugI22JUV4nmnO5gIv). Please note that all weight matrices are formatted with theano as a background and not tensorflow. That also includes theano style input dimension ordering.
 
-# References
+## References
 [1] A. W. Harley, A. Ufkes, and K. G. Derpanis, “Evaluation of deep convolutional nets for document image classification and retrieval,” in _Document Analysis and Recognition (ICDAR), 2015 13th International Conference on_. IEEE, 2015, pp. 991–995.<Enter>
   
 [2] C. Tensmeyer and T. Martinez, “Analysis of convolutional neural networks for document image classification,” _arXiv preprint arXiv:1708.03273_, 2017.<Enter>
