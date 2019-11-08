@@ -27,6 +27,9 @@ There has been an ongoing issue by users unable to use (properly load) the weigh
 
 Hopefully this gives a way forward for people having issues using our weights for newer versions of keras, theano, tensorflow and the like.
 
+## Detailed Guide for Tensorflow 2.0
+[Martin H. Normark](https://github.com/martinnormark) was nice enough to provide a detailed guide for running the models with Tensorflow 2.0.
+
 ## Dataset
 [RVL-CDIP](http://www.cs.cmu.edu/~aharley/rvl-cdip/) has been used to validate the proposed methodology. This dataset consists of 400000 scanned grayscale images distributed among 16 categories. Also this collection is subdivided into training, validation and test sets each containing 320000, 40000 and 40000 images respectively.
 
